@@ -1,0 +1,186 @@
+/* Home Section Start */
+.home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+    padding-top: 1rem;
+    z-index: 1;
+}
+
+.home .image {
+    flex: 1 1 40rem;
+    z-index: 1;
+}
+
+.home .image img {
+    width: 70%;
+    margin-left: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(27, 26, 26, 0.3);
+    cursor: pointer;
+}
+
+.home .image img:hover {
+    box-shadow: 0 5px 15px #011333;
+}
+
+.home .content h2 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #002057;
+}
+
+.home .btn {
+    margin-top: 1rem;
+    position: absolute;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: #fff;
+    background: #fc8c05;
+    box-shadow: 0px 5px 18px #ffa333;
+    font-family: "Nunito", sans-serif;
+}
+
+.home .btn span {
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.home .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.home .btn:hover {
+    background: #ec8200;
+}
+
+.home .btn:hover i {
+    transform: translateX(5px);
+}
+
+/* Social Media Start */
+.socialmedia {
+    position: relative;
+    margin-top: 9rem;
+}
+
+.socialmedia .socmed-icon {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.socialmedia .socmed-icon li {
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.socmed-icon a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #ff8c00;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+
+.socmed-icon a:active,
+.socmed-icon a:focus,
+.socmed-icon a:hover {
+    color: #fff;
+    /* background-color: #0685da; */
+}
+
+.socmed-icon a.github:hover {
+    background-color: #0e0e0e;
+}
+
+.socmed-icon a.twitter:hover {
+    background-color: #00aced;
+}
+
+.socmed-icon a.linkedin:hover {
+    background-color: #007bb6;
+}
+
+.socmed-icon a.instagram:hover {
+    background-image: linear-gradient(to bottom left, #515bd4, #8134af, #dd2a7b, #f58529, #feda77);;
+}
+/* Social Media End */
+
+/* Responsive Start */
+@media (max-width: 450px) {
+    .home{
+        min-height: 80vh;
+    }
+
+    .home .image img {
+        text-align: center;
+    }
+
+    .home .content{
+    margin-left: 2.5rem;
+    margin-top: -4rem;
+    }
+    .home .content h2 {
+    font-size: 4rem;
+    }
+
+    .home .content p {
+        font-size: 2.2rem;
+    }
+
+    .home .content p span {
+        font-size: 2.2rem;
+    }
+}
+
+@media  (max-width: 768px) {
+    .home{
+        min-height: 90vh;
+    }
+
+    .home .content h2 {
+        margin-top: 3rem;
+    font-size: 3.5rem;
+    }
+
+    .home .btn {
+        margin: 1.5rem 0;
+    }
+
+     .home .image img {
+        text-align: center;
+        margin-top: -5rem;
+    }
+
+}
+/* Responsive End */
+
+/* Home Section End */

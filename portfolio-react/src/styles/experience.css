@@ -1,0 +1,180 @@
+/* Experience Section Start */
+.experience {
+    background: #e5ecfb;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.experience .heading{
+  color: #ec8200;
+}
+
+.experience .box-container {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 2.5rem;
+    margin: 8rem 2rem;
+}
+
+.experience .box-container .box {
+    flex: 1 1 50rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    height: 40rem;
+}
+
+.experience .box-container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    object-position: center; 
+}
+
+
+.experience .box-container .box .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 89%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+.experience .box-container .box .content .tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    width: 100%;
+    padding-left: 1rem;
+    background: #ffd900;
+}
+
+.experience .box-container .box .content .tag h3 {
+    margin-left: 0.8rem;
+    font-size: 1.85rem;
+}
+
+.experience .box-container .box:hover .content {
+    top: 25%;
+}
+
+.experience .desc {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience .desc p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.experience .desc h1 {
+    font-size: 2rem;
+    color: #ec8200;
+    margin-bottom: 0.5rem;
+}
+
+.experience .desc h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.experience .desc .btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.experience .desc .btns .btn {
+    line-height: 0;
+    padding: 1.9rem 2.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    background: rgb(12, 12, 12);
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.experience .desc .btns .btn:hover {
+    background: #ec8200;
+    box-shadow: 0px 5px 18px #ffa333;
+}
+
+.experience .desc .btns .btn:hover i.fa-eye {
+    transform: translateX(-5px);
+}
+
+.experience .desc .btns .btn:hover i.fa-code {
+    transform: translateX(5px);
+}
+
+
+/* 📱 Small Devices (Mobile First) */
+@media (max-width: 768px) {
+  .experience {
+    padding: 2rem 1rem;
+  }
+
+  .experience .heading{
+    font-size: 3.5rem;
+  }
+  .experience .box-container {
+    flex-direction: column;
+    margin: 6rem 2rem;
+    gap: 3rem;
+  }
+
+  .experience .box-container .box {
+    height: auto; /* let content decide height */
+  }
+
+  .experience .box-container .box img {
+    height: 100%; /* fixed height for images */
+    object-fit: fill;
+    object-position: center;
+  
+}
+
+  .experience .desc {
+    margin: 1rem;
+  }
+
+  .experience .desc h1 {
+    font-size: 1.4rem;
+  }
+
+  .experience .desc h3 {
+    font-size: 1.1rem;
+  }
+
+  .experience .desc p {
+    font-size: 1.1rem;
+  }
+
+  .experience .desc .btns {
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    margin-top: 2rem;
+  }
+
+  .experience .desc .btns .btn {
+    width: 50%;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/* Experience Section End */

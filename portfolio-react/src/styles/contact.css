@@ -1,0 +1,201 @@
+/* contact Section Start */
+.contact {
+    min-height: auto;
+    padding: 0;
+    background: rgb(0, 1, 43);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .box-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .box-container .box {
+    flex: 1 1 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.contact .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+.contact .box-container .box p {
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 0.9rem 0;
+    text-transform: none;
+    font-family: "Nunito";
+    align-self: flex-start;
+}
+
+.contact .box-container .box p i {
+    padding-right: 1.5rem;
+    color: #ffae00;
+}
+
+.contact .box-container .box .share {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+}
+
+.contact .box-container .box .share a {
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: white;
+    background-color: #09011b;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+
+.contact .box-container .box .share a:hover {
+    background: transparent;
+    transform: scale(0.98);
+    border: 0.1rem solid rgb(180, 178, 178);
+    color: #ffae00;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 3px solid #fc900d;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.contact-form textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 45%;
+  background: #fc900d;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  transition: 0.3s;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #ec8200;
+}
+
+/* ✅ Success State */
+.contact-form button.sent {
+  background: #28a745; /* green */
+  color: #fff;
+}
+
+/* ❌ Error State */
+.contact-form button.error {
+  background: #dc3545; /* red */
+  color: #fff;
+}
+
+
+
+
+/* Responsive Start */
+
+@media (max-width: 450px) {
+
+    .heading {
+        padding-top: 4rem;
+    }
+
+    html {
+        font-size: 55%;
+    }
+    
+    body {
+        padding-right: 0;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        width: 90%;
+   }
+    .contact .box-container .box h3 {
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+
+    .contact .box-container .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:5px;
+
+    }
+
+    .contact .box-container .box p {
+        padding: 0.7rem;
+    }
+    
+
+    .contact-form button {
+        margin-bottom: 2.5rem;
+        font-size: 1.2rem;
+        width: 70%;
+    }
+        
+}
+
+@media (max-width: 768px) {
+
+        .contact-form input,
+    .contact-form textarea{
+        width: 90%;
+   }
+
+
+    .contact-form button {
+        width: 70%;
+    }
+}
+
+/* Responsive End */
+
+/* contact Section End */
+
+

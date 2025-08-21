@@ -1,0 +1,126 @@
+/* Skills Section Start */
+.skills {
+    min-height: 140vh;
+    background: linear-gradient(to bottom right, #ff9f2a, #ffe033);
+}
+
+.skills h2 {
+    color: #fff;
+}
+
+.skills .container {
+    background: rgba(0, 0, 22, 0.305);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+
+.skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+
+.skills .container .bar {
+    margin: 15px 5px;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(90, 66, 1, 0.555);
+    transition: 0.2s;
+}
+
+.skills .container .bar:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.skills .container .bar .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skills .container .bar .info img {
+    width: 16rem;
+}
+
+.skills .container .bar .info span {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+/* Responsive Start */
+@media screen and (max-width: 768px ) {
+    
+
+    .skills h2 {
+        font-size: 3.5rem;
+    }
+
+    .skills .container .row {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        padding: 2rem 0.5rem 2rem 0.5rem;
+        gap: 0.5rem;
+    }
+    
+    .skills .container .bar {
+        width: auto;
+    }
+
+    .skills .container {
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+        width: 100%;
+        padding: 0;
+    
+    }
+}
+
+/* ✅ Responsive for Small Phones (390px and below) */
+@media screen and (max-width: 390px) {
+
+  .skills h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .skills .container {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    padding: 1rem;
+  }
+
+  .skills .container .row {
+    grid-template-columns: 1fr; /* ✅ single column layout */
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .skills .container .bar {
+    padding: 8px;
+    margin: 8px 0;
+  }
+
+  .skills .container .bar .info img {
+    width: 10rem; /* ✅ shrink skill icons */
+  }
+
+  .skills .container .bar .info span {
+    font-size: 1.4rem; /* ✅ smaller text */
+  }
+}
+
+/* Responsive End */
+
+/* Skills Section End */
