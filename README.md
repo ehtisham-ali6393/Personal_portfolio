@@ -38,9 +38,13 @@ git clone https://github.com/ehtisham-ali6393/Personal_portfolio.git
 
 # Navigate into the folder
 cd Personal_portfolio
+cd portfolio-react
+
 
 # Install dependencies
 npm install
+npm install @emailjs/browser
+
 
 # Start development server
 npm run dev
