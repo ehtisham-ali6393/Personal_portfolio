@@ -42,7 +42,7 @@ export default function Contact() {
           setTimeout(() => {
             setBtnText("Send Message");
             setBtnClass("");
-          }, 3000);
+          }, 2000);
         }
       );
   };
