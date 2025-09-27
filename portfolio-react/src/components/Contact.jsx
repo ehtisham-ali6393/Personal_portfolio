@@ -54,7 +54,7 @@ export default function Contact() {
           <div>
             <h3>Contact Info</h3>
             <p>
-              <i className="fas fa-phone"></i> +91 6393414419
+              <i className="fas fa-phone"></i> +91 
             </p>
             <p>
               <i className="fas fa-envelope"></i> ehtishamofficial23@gmail.com
