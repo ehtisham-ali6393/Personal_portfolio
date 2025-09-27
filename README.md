@@ -48,3 +48,7 @@ npm install @emailjs/browser
 
 # Start development server
 npm run dev
+
+#when required
+npm install react-scripts --save
+npm install --save-dev vite @vitejs/plugin-react gh-pages

@@ -51,18 +51,20 @@ const Projects = () => {
       <div className="project-container">
 
         <ProjectCard
-          project="Palette Fusion "
-          img="images/project/palette-fusion.png"
-          techStack="HTML ● CSS ● JavaScript"
+          project="Invoice Generator"
+          img="images/project/invoice.png"
+          techStack="React.js ● TailwindCSS  ● JavaScript"
           highlights={[
-            <> Generate stunning color palettes instantly with smart algorithms.</>,
-            <> Responsive & interactive UI.</>,
-            <> Save, copy & share palettes for effortless collaboration.</>,
-            <> Optimized for performance across devices and browsers.</>
+            <> Generate invoices in minutes to save time and effort.</>,
+            <> Easy-to-use interface with a clean, professional look.</>,
+            <> Download and share invoices as secure PDFs.</>,
+            <> Automatically handle tax and total calculations.</>,
+            <> Accessible anytime, anywhere on any device.</>
           ]}
+
           links={[
-            { label: "View 🌐", url: "https://ehtisham-ali6393.github.io/Palette-Fusion/" },
-            { label: "Code </>", url: "https://github.com/ehtisham-ali6393/Palette-Fusion?tab=readme-ov-file" }
+            { label: "View 🌐", url: "https://ehtisham-ali6393.github.io/invoice-generator-master/"},
+            { label: "Code </>", url: "https://github.com/ehtisham-ali6393/invoice-generator-master" }
           ]}
         />
 
