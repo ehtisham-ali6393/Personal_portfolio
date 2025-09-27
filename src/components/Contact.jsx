@@ -11,7 +11,7 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_7d1n7li", // replace with EmailJS service ID
+        "service_bsgoh5u", // replace with EmailJS service ID
         "template_ou8uews", // replace with EmailJS template ID
         form.current,
         "aQ8mmNmEkYPIAf8_P" // replace with EmailJS public key
@@ -54,7 +54,7 @@ export default function Contact() {
           <div>
             <h3>Contact Info</h3>
             <p>
-              <i className="fas fa-phone"></i> +91 
+              <i className="fas fa-phone"></i> +91 6393414419
             </p>
             <p>
               <i className="fas fa-envelope"></i> ehtishamofficial23@gmail.com
