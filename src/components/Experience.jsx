@@ -8,7 +8,7 @@ const experience = [
     company: 'Digital Ipsum Pvt. Ltd.',
     durtion: "Jul' 24 - Sep' 24",
     desc: 'At Digital Ipsum, I built and optimized responsive React.js components to ensure seamless cross-device performance and enhanced UI/UX accessibility, improving user engagement. I worked closely with senior developers to deliver client-focused projects on time and leveraged Git with Agile methodologies to maintain efficient version control and streamline workflows.',
-    certificate: 'https://drive.google.com/file/d/1wLVueK3jS2mYdhLXdGqC-Zzk0x58uLKF/view?usp=sharing',
+    certificate: 'https://drive.google.com/file/d/1PLToj4Lcp_l3A5ZS719e-f2rdL61Utx1/view?usp=sharing',
     LOR: 'https://drive.google.com/file/d/17jX99Oj_24Fj1UVX4RQ9VqHb5D_nc2Lt/view?usp=sharing'
   },
   
