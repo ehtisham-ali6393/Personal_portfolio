@@ -24,16 +24,16 @@ export default function About() {
           <div className="box-container">
             <div className="box">
               <p><span> Age : </span> 25</p>
-              <p><span> Phone : </span> +91 6393414419</p>
+              <p><span> Phone : </span> +971 54 470 5054</p>
             </div>
             <div className="box">
               <p><span> Email : </span> ehtishamofficial23@gmail.com</p>
-              <p><span> Place : </span> New Delhi, India - 110025</p>
+              <p><span> Place : </span> Sharjah, United Arab Emirates</p>
             </div>
           </div>
 
           <div className="cvbtn">
-            <a href="https://drive.google.com/file/d/14swjkNeH44zA8lMpMecsrLv6d928-Bz0/view?usp=sharing" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
+            <a href="https://drive.google.com/file/d/1-qC1JVyE9LYJYQ2_Vifml1sspn6H68Ad/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
               <i className="fas fa-chevron-right"></i>
             </a>
           </div>
