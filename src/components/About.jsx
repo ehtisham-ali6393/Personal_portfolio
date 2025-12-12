@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <div className="cvbtn">
-            <a href="https://drive.google.com/file/d/1-qC1JVyE9LYJYQ2_Vifml1sspn6H68Ad/view?usp=drive_link" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
+            <a href="https://drive.google.com/file/d/1Bmt1cDR53PRIqIy8lJO9IoFprbt0y8pJ/view?usp=sharing" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
               <i className="fas fa-chevron-right"></i>
             </a>
           </div>
