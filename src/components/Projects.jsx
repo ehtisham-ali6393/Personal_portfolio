@@ -85,18 +85,18 @@ const Projects = () => {
         />
 
         <ProjectCard
-          project="Palette Fusion "
-          img="images/project/palette-fusion.png"
-          techStack="HTML ● CSS ● JavaScript"
+          project="IT Solution Landing Page "
+          img="images/project/it-solution.png"
+          techStack="React.js ● CSS  ● JavaScript"
           highlights={[
-            <> Generate stunning color palettes instantly with smart algorithms.</>,
-            <> Responsive & interactive UI.</>,
-            <> Save, copy & share palettes for effortless collaboration.</>,
-            <> Optimized for performance across devices and browsers.</>
+            <> IT Solutions Landing Page Template</>,
+            <> A clean and modern template for IT companies and tech startups.</>,
+            <> Responsive design with customizable sections to showcase services.</>,
+            <> Built to help businesses create a professional online presence quickly.</>
           ]}
           links={[
-            { label: "View 🌐", url: "https://ehtisham-ali6393.github.io/Palette-Fusion/" },
-            { label: "Code </>", url: "https://github.com/ehtisham-ali6393/Palette-Fusion?tab=readme-ov-file" }
+            { label: "View 🌐", url: "https://ehtisham-ali6393.github.io/IT-Solutions-Landing-Page/" },
+            { label: "Code </>", url: "https://github.com/ehtisham-ali6393/IT-Solutions-Landing-Page" }
           ]}
         />
 

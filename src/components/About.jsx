@@ -14,8 +14,8 @@ export default function About() {
 
           <p>
             I’m a B. Tech graduate in Cloud Technology & Information Security from Integral University, 
-             driven by curiosity and a passion for innovation. I love turning ideas into<br/> impactful 
-             digital experiences — from crafting sleek React.js frontends to deploying scalable applications 
+             driven by curiosity and a passion for innovation. I love turning ideas into impactful 
+             digital experiences, from crafting sleek React.js frontends to deploying scalable applications 
              on the cloud.<br/> <br/>
             
             My journey so far has been a mix of design, development, and deployment, blending creativity with technical expertise. I’m constantly exploring new tools, learning emerging technologies, and pushing myself to build solutions that truly make a difference.
@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <div className="cvbtn">
-            <a href="https://drive.google.com/file/d/1Bmt1cDR53PRIqIy8lJO9IoFprbt0y8pJ/view?usp=sharing" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
+            <a href="https://drive.google.com/file/d/13KNkjGMbGKvPhxsSFA8qSZthAqJbKPYl/view?usp=sharing" target="_blank" rel="noreferrer" className="btn"><span>Curriculum Vitae</span>
               <i className="fas fa-chevron-right"></i>
             </a>
           </div>
