@@ -24,11 +24,11 @@ export default function About() {
           <div className="box-container">
             <div className="box">
               <p><span> Age : </span> 25</p>
-              <p><span> Phone : </span> +971 54 470 5054</p>
+              <p><span> Phone : </span> +91 6393414419</p>
             </div>
             <div className="box">
               <p><span> Email : </span> ehtishamofficial23@gmail.com</p>
-              <p><span> Place : </span> Sharjah, United Arab Emirates</p>
+              <p><span> Place : </span> New Delhi, India</p>
             </div>
           </div>
 

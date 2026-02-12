@@ -54,13 +54,13 @@ export default function Contact() {
           <div>
             <h3>Contact Info</h3>
             <p>
-              <i className="fas fa-phone"></i> +971 54 470 5054
+              <i className="fas fa-phone"></i> +91 6393414419
             </p>
             <p>
               <i className="fas fa-envelope"></i> ehtishamofficial23@gmail.com
             </p>
             <p>
-              <i className="fas fa-map-marked-alt"></i> Sharjah, United Arab Emirates
+              <i className="fas fa-map-marked-alt"></i> New Delhi, India
             </p>
             <div className="share">
               <a
